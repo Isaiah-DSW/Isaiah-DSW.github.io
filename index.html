@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<link rel="canonical" href="https://eyezah.tk/" />
+
+    <title>Eyezah | Software & Web Developer</title>
+		<meta name="description" content="Hi! I'm Isaiah. I'm a software & web developer from Auckland, New Zealand. I write literally everything in JS & PHP it's sorta an issue." />
+		
+		<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png" />
+		<link rel="manifest" href="favicons/site.webmanifest" />
+		<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#ff00ff" />
+		<link rel="shortcut icon" href="favicons/favicon.ico" />
+		<meta name="msapplication-TileColor" content="#ff00ff" />
+		<meta name="msapplication-config" content="favicons/browserconfig.xml" />
+		<meta name="theme-color" content="#ffffff" />
+
+		<meta property="og:title" content="Eyezah" />
+		<meta property="og:site_name" content="Eyezah" />
+		<meta property="og:url" content="https://eyezah.tk" />
+		<meta property="og:description" content="Hi! I'm Isaiah. I'm a software & web developer from Auckland, New Zealand." />
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="https://eyezah.tk/favicons/opengraph.png" />
+		<meta property="og:locale" content="en_US" />
+
+		<meta name="twitter:title" content="Eyezah" />
+		<meta name="twitter:description" content="Hi! I'm Isaiah. I'm a software & web developer from Auckland, New Zealand." />
+		<meta name="twitter:image" content="https://eyezah.tk/favicons/twitter.png" />
+	</head>
+	<body>
+		<div id="splash-container">
+  		<div class="glitch-wrapper">
+  			<h1 class="glitch" data-text="isaiah">Eyezah<span style="display:none"> Isaiah W. Meek</span></h1>
+			</div>
+			<iframe src="silence.mp3" allow="autoplay" style="display:none"></iframe> 
+			<video src="style/videos/rain.mp4" autoplay loop muted id="splash-video" class="display-video"></video>
+		</div>
+		<div class="marquee" id="intro-transition">
+			<div class="marquee-track">
+				<div class="marquee-content">&nbsp;Hi! I'm Isaiah. Hi! I'm Isaiah. Hi! I'm Isaiah. Hi! I'm Isaiah. Hi! I'm Isaiah. Hi! I'm Isaiah. Hi! I'm Isaiah. Hi! I'm Isaiah. Hi! I'm Isaiah. Hi! I'm Isaiah. Hi! I'm Isaiah. Hi! I'm Isaiah. </div>
+			</div>
+			<div class="marquee-track" id="intro-transition-2">
+				<div class="marquee-content"></div>
+			</div>
+		</div>
+		<h2 class="intro-paragraph">I'm a software & web developer from Auckland, New Zealand.</h2>
+		<p class="intro-subparagraph">I write literally everything in JS & PHP it's sorta an issue</p>
+		<p class="intro-subparagraph" style="font-size: 1em">but anyway</p>
+		<h2 id="intro-title">&#128079; I &#128079; make &#128079; cool &#128079; stuff</h2>
+		<p class="intro-subparagraph">and I make a lot of it</p>
+		<p class="intro-subparagraph" style="font-size: 1em">(I also do web design)</p>
+		<p class="intro-paragraph">I've done work for</p>
+		<div id="intro-logo-container">
+			<a href="https://rhemamedia.co.nz" target="_blank"><img class="intro-logo" src="style/logos/rhema media.png" alt="Rhema Media Logo" /></a>
+			<a href="https://basefm.co.nz" target="_blank"><img class="intro-logo" src="style/logos/base fm.png" alt="Base FM Logo" /></a>
+			<a href="https://beatsturning.com" target="_blank"><img class="intro-logo" src="style/logos/silhouette.png" alt="Silhouette Logo" /></a>
+			<a href="https://beatsturning.com#shufflefm" target="_blank"><img class="intro-logo" src="style/logos/shufflefm.png" alt="ShuffleFM Logo" /></a>
+			<a href="https://trulyinspiring.tk" target="_blank"><img class="intro-logo" src="style/logos/truly inspiring.png" alt="Truly Inspiring Logo" /></a>
+			<a href="https://twitch.tv/notsleepyhead" target="_blank"><img class="intro-logo" src="style/logos/sleepyhead.png" alt="Sleepyhead Logo" /></a>
+			<a href="https://blackcatelectrical.co.nz" target="_blank"><img class="intro-logo" src="style/logos/black cat electrical.png" alt="Black Cat Electrical Logo" /></a>
+		</div>
+		<p class="intro-paragraph"><i>"What are you working on, Eyezah?"</i></p>
+		<p class="intro-subparagraph">well...</p>
+		<div id="window-thumbnail-container">
+			<a style="background-image:url('style/thumbnails/silhouette.png')" href="#silhouette"></a>
+			<a style="background-image:url('style/thumbnails/tarmas.png')" href="#tarmas"></a>
+			<a style="background-image:url('style/thumbnails/sleepyhead.png')" href="#sleepyhead"></a>
+			<a style="background-image:url('style/thumbnails/second net.png')" href="#second-net"></a>
+			<a style="background-image:url('style/thumbnails/drift.png')" href="#drift"></a>
+			<a style="background-image:url('style/thumbnails/funky cameras.png')" href="#funky-cameras"></a>
+			<a style="background-image:url('style/thumbnails/movie night.png')" href="#movie-night"></a>
+			<a style="background-image:url('style/thumbnails/oddball.png')" href="#oddball"></a>
+			<a style="background-image:url('style/thumbnails/amongst we.png')" href="#amongst-we"></a>
+		</div>
+		<div class="window-container" id="silhouette">
+			<img src="style/images/silhouette.png" id="silhouette-img" alt="Silhouette Logo (Large)" />
+			<div id=silhouette-buttoncontainer>
+				<a href="beatsturning.com/player" target="_blank">
+					<div id=silhouette-button>
+						<div id=silhouette-buttonspan>
+							<span id=topbuttontext>Listen</span>
+						</div>
+						<div id=silhouette-buttonimg>
+							<img src="style/images/play-white.svg" alt="Play Button">
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<h3 class="window-paragraph">SILHOUETTE</h3>
+		<p class="window-subparagraph">SILHOUETTE is a 24/7 electronic music radio station with a team of some of the biggest names in the New Zealand electronic music scene hosting shows around the clock. This is my longest-standing (that's still running) and most successful personal project (I started it in late 2018).
+
+<a href="https://beatsturning.com" target="_blank">Check it out!</a> It's got live shows and I even play on it (among other stations).</p>
+		
+		
+		
+		<div class="window-container" id="tarmas">
+			<a target="_blank">
+				<img id="tarmas-background" src="style/images/tarmas background.png" alt="Tarmas Background Image" />
+			</a>
+		</div>
+		<h3 class="window-paragraph">Tarmas</h3>
+		<p class="window-subparagraph">Tarmas is my Television And Radio Media Automation Software. Yeah, it can do both. At the same time even. This is still in development and isn't released yet.
+
+It's totally embeddable in OBS, XSplit & Synergy among other softwares and is designed to be expandable by the user via a comprehensive and powerful API that I would've liked to have seen years ago by the industry leading radio/TV automation software developers.</p>
+		
+		
+		
+		<div class="window-container" id="sleepyhead">
+			<a href="https://twitch.tv/notsleepyhead" target="_blank">
+				<video id="sleepyhead-video" src="style/videos/sleepyhead.mp4" autoplay loop muted class="display-video" alt="Sleepyhead Background Video"></video>
+			</a>
+		</div>
+		<h3 class="window-paragraph">Sleepyhead</h3>
+		<p class="window-subparagraph">Sleepyhead is a seamless flow of ambient sounds in the form of a livestream to sleep & study to. Based on the original (deprecated but functional) project <a href="https://sleeeep.eyezah.tk" target="_blank">Sleeeep</a> but with introduced "meandering" which allows for an automated transition between up to 4 (configurable) sounds at a time.</p>
+		
+		
+		
+		
+		<div class="window-container" id="second-net">
+			<a target="_blank">
+				<img id="second-net-background" src="style/images/second net background.png" alt="Second.net Background Image" />
+			</a>
+		</div>
+		<h3 class="window-paragraph">Second.net</h3>
+		<p class="window-subparagraph">Second.net is a re-indexed internet. All domain names are available again and domains can contain special characters like " ". It's pretty much meant to be a more free and secure internet.
+
+Websites are able to be on both Second.net AND on the normal internet simultaneously. All you have to do to get on Second.net is to add a script to the head of your page and register it in the directory.</p>
+		
+		
+		
+		<div class="window-container" id="drift">
+			<a target="_blank">
+				<img id="drift-background" src="style/images/drift background.png" alt="Drift Background Image" />
+			</a>
+		</div>
+		<h3 class="window-paragraph">Drift</h3>
+		<p class="window-subparagraph">Drift is the best way to let your audience send you voice messages that you can play out on air live. It drops recordings right into a directory via ftp, has anti-spam protection, and formats the file's meta tags. Perfect for radio stations and streamers.</p>
+		
+		
+		
+		<div class="window-container" id="funky-cameras">
+			<a target="_blank">
+				<img id="funky-cameras-background" src="style/images/funky cameras background.png" alt="Funky Cameras Background Image" />
+			</a>
+		</div>
+		<h3 class="window-paragraph">Funky Cameras</h3>
+		<p class="window-subparagraph">Funky Cameras lets you monitor many of the traffic cameras around New Zealand in near-real time. Due to security and bandwidth the cameras are updated every minute rather than being live video feeds.</p>
+		
+		
+		
+		<div class="window-container" id="movie-night">
+			<a target="_blank">
+				<img id="movie-night-background" src="style/images/movie night background.png" alt="Movie Night Background Image" />
+			</a>
+		</div>
+		<h3 class="window-paragraph">Movie Night</h3>
+		<p class="window-subparagraph">Movie Night lets you watch movies and videos with friends synchronized over the internet on individual devices. It's also designed to let you watch movies on your TV without the use of Chromecast. Supports individual private rooms as well as a global room to watch movies with strangers.</p>
+		
+		
+		
+		<div class="window-container" id="oddball">
+			<a target="_blank">
+				<img id="oddball-background" src="style/images/oddball background.png" alt="Oddball Background Image" />
+			</a>
+		</div>
+		<h3 class="window-paragraph">Oddball</h3>
+		<p class="window-subparagraph">Oddball is a web-based game that let's you play tag with people using your phone's GPS. Is currently private due to a security risk.</p>
+		
+		
+		
+		<div class="window-container" id="amongst-we">
+			<a target="_blank">
+				<img id="amongst-we-background" src="style/images/amongst we background.png" alt="Amongst We Background" />
+			</a>
+		</div>
+		<h3 class="window-paragraph">Amongst We</h3>
+		<p class="window-subparagraph">Amongst We is an IRL Among Us spinoff that uses QR Codes to track players and tasks. Cool right? Don't worry, I'm changing the name before the project goes live.</p>
+		
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		
+		<p class="intro-paragraph">So... Yeah</p>
+		<p class="intro-subparagraph">All of those projects are written in JS & PHP, most of which aren't released to the public as they're not finished but some (like <a href="https://beatsturning.com" target="_blank">SILHOUETTE</a>!) are fully operational and have been running smoothly for some time.
+		
+		If you're interested in any of these projects let me know and I'd be happy to share the code for the majority of them!</p>
+		
+		<p class="intro-paragraph">I do web design too!</p>
+		<p class="intro-subparagraph">If you're interested in my web design work let me know! I'm always interested in doing both frontend and backend for websites and/or services.
+
+Contact me at <a href="mailto:isaiah.william.meek@gmail.com" target="_blank">isaiah.william.meek@gmail.com</a> or any other way you manage to reach me.
+		</p>
+		
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		
+		<div class="marquee" id="footer-marquee">
+			<div class="marquee-track">
+				<div class="marquee-content">&nbsp;Cheers! Cheers! Cheers! Cheers! Cheers! Cheers! Cheers! Cheers! Cheers! Cheers! Cheers! Cheers! Cheers! Cheers! Cheers! Cheers! </div>
+			</div>
+		</div>
+		<div id="footer">
+			<a href="https://instagram.com/eyezahhhh" target="_blank">
+				<img src="style/images/instagram.png" alt="Instagram Logo" />
+			</a>
+			<a href="https://soundcloud.com/eyezahh" target="_blank">
+				<img src="style/images/soundcloud.png" alt="Soundcloud Logo" />
+			</a>
+			<a href="https://www.facebook.com/eyezahhhh/" target="_blank">
+				<img src="style/images/facebook.png" alt="Facebook Logo" />
+			</a>
+			<h2 id="footer-foot">Eyezah | Isaiah Meek</h2>
+		</div>
+		
+		<span style="display:none">PHP, PHP developer, PHP programmer, JS, JS developer, JS programmer, Javascript, Javascript developer, Javascript programmer, HTML, CSS, MySQL, MariaDB, Web design, Web developer, Website, Website design, Website developer, Website programmer, Isaiah William Meek, Isaiah Meek, Isaiah, Eyezah, DJ, Drum & Bass, Electronic Music, House, House Music, Trap, Trap Music, New Zealand, Auckland, SEO, Search Engine Optimization, PHP, PHP developer, PHP programmer, JS, JS developer, JS programmer, Javascript, Javascript developer, Javascript programmer, HTML, CSS, MySQL, MariaDB, Web design, Web developer, Website, Website design, Website developer, Website programmer, Isaiah William Meek, Isaiah Meek, Isaiah, Eyezah, DJ, Drum & Bass, Electronic Music, House, House Music, Trap, Trap Music, New Zealand, Auckland, SEO, Search Engine Optimization, PHP, PHP developer, PHP programmer, JS, JS developer, JS programmer, Javascript, Javascript developer, Javascript programmer, HTML, CSS, MySQL, MariaDB, Web design, Web developer, Website, Website design, Website developer, Website programmer, Isaiah William Meek, Isaiah Meek, Isaiah, Eyezah, DJ, Drum & Bass, Electronic Music, House, House Music, Trap, Trap Music, New Zealand, Auckland, SEO, Search Engine Optimization.</span>
+
+		<script src="script.js"></script>
+	</body>
+</html>
